@@ -1,0 +1,12 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    params:
+      exchange: MX-Baas-Santander
+      queue: Terminos&Condiciones
+      routingkey: mx.santander
+server:
+  port: 8082
