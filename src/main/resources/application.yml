@@ -8,5 +8,13 @@ spring:
       exchange: MX-Baas-Santander
       queue: Terminos&Condiciones
       routingkey: mx.santander
+  #Config cache manager
+  redis:
+    host: localhost
+    port: 6379
+    password: 'redis'
+cache:
+  time-to-live: 60000
+  enable-refresh: true
 server:
   port: 8082
