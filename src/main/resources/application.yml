@@ -8,6 +8,12 @@ spring:
       exchange: MX-Baas-Santander
       queue: Terminos&Condiciones
       routingkey: mx.santander
+  #Config connection mongo
+  data:
+    mongodb:
+         host: localhost
+         port: 27017
+         database: Terms
   #Config cache manager
   redis:
     host: localhost
